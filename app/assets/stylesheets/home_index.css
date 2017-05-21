@@ -1,0 +1,40 @@
+.nav-btn {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+  background-color: #aa6982;    
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  margin: 10px;
+  cursor: pointer;
+
+}
+
+.nav-btn:hover{
+  opacity: .7;
+}
+
+#home-index-nav-container{
+  top: -5%;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.nav-btn a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn a:hover {
+  text-decoration: none;
+  color: #fff;
+}
