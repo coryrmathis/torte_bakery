@@ -18,10 +18,19 @@
 }
 
 #home-index-nav-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
   top: -5%;
   white-space: nowrap;
   margin: 0 auto;
-  position: relative;
+}
+
+#home-index-nav-main-container{
+  top: 30%;
+  padding: 40px 40px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .nav-btn a {
@@ -37,4 +46,51 @@
 .nav-btn a:hover {
   text-decoration: none;
   color: #fff;
+}
+
+#social-media-links-container{
+  position: absolute;
+  text-align: center;
+  font-size: 4em;
+  left: 43%;
+  top: 122%;
+}
+
+#social-media-links-container i {
+  margin: 10px;
+}
+
+#social-media-links-container a {
+  text-decoration: none;
+  color: black;
+}
+
+#social-media-links-container a:visted {
+  text-decoration: none;
+  color: black;
+}
+
+#facebook-icon:hover {
+  text-decoration: none;
+  color: #3b5998;
+}
+
+#social-media-links-container div {
+  align-self: center;
+  margin: 0 auto;
+}
+
+#instagram-icon i:hover {
+  
+  background:         linear-gradient( #400080, transparent), -webkit-linear-gradient( 
+   200deg, #d047d1, #ff0000,    #ffff00); /* Standard syntax; must be last */
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+#social-media-links i{
+  margin: 10px 10px;
 }

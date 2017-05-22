@@ -1,7 +1,13 @@
 <div id="home-index-nav-container">
-  <span class="nav-btn"><%=link_to "about", "/about"%></span>
-  <span class="nav-btn"><%=link_to "gallery", "#"%></span>
-  <%=image_tag("torte_bakery_logo", size: "300x300", id: "torte_bakery_logo")%>
-  <span class="nav-btn"><%=link_to "contact", "#"%></span>
-  <span class="nav-btn"><%=link_to "flavors", "#"%></span>
+  
+  <div id="home-index-nav-main-container">
+    <span class="nav-btn"><%=link_to "about", "/about"%></span>
+    <span class="nav-btn"><%=link_to "gallery", "#"%></span>
+    <%=image_tag("torte_bakery_logo", size: "300x300", id: "torte_bakery_logo")%>
+    <span class="nav-btn"><%=link_to "contact", "#"%></span>
+    <span class="nav-btn"><%=link_to "flavors", "#"%></span>
+  </div>
+  <div id="social-media-links-container">
+    <%=link_to(fa_icon("facebook"), "https://www.facebook.com/tortebakery/", id:"facebook-icon")%>|<%=link_to(fa_icon("instagram"), "https://www.instagram.com/thegreeneyedbaker/", id: "instagram-icon")%> 
+  </div>
 </div>
