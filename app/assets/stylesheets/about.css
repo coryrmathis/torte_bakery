@@ -1,0 +1,39 @@
+#the-bakery-container, #the-baker-container {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  padding: 0 10% 0 10%;
+}
+
+#the-bakery-container p, #the-baker-container p {
+  font-size: 1.2em;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+
+#ampersand {
+  
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 7em;
+}
+
+#the-bakery-container h2, #the-baker-container h2 {
+  font-size: 3em;
+}
+
+hr {
+  background: black
+}
+
+#about-page-container .fa-arrow-left {
+  position: absolute;
+  font-size: 5em;
+  margin-top: .5%;
+  margin-left: 3%;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-arrow-left {
+  background-color: red;
+}

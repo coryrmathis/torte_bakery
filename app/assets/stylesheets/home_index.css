@@ -4,7 +4,7 @@
   font-size: 3em;
   padding: 10px 50px 10px 50px;
   border-radius: 10px;
-  background-color: #aa6982;    
+  background-color: #c47392;    
   -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
@@ -53,7 +53,7 @@
   text-align: center;
   font-size: 4em;
   left: 43%;
-  top: 122%;
+  top: 105%;
 }
 
 #social-media-links-container i {
@@ -76,7 +76,6 @@
 }
 
 #social-media-links-container div {
-  align-self: center;
   margin: 0 auto;
 }
 
@@ -93,4 +92,28 @@
 
 #social-media-links i{
   margin: 10px 10px;
+}
+
+#bullet-headings-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+#bullet-headings-container .fa-circle {
+  font-size: .5em;
+}
+
+#bullet-headings-container .bullet-heading{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  letter-spacing: .3em
+}
+
+#bullet-headings-container span {
+  align-self: center;
+}
+
+#home-index-nav-container #home-index-city {
+  font-family: 'Amatic SC', cursive;
+  font-size: .75em;
 }

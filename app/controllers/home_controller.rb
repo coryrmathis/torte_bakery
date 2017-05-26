@@ -4,6 +4,7 @@ class HomeController < ApplicationController
 	end
 
   def about
+    @fake_paragraph = Faker::Lorem.paragraph(2)
   end
 
   def gallery

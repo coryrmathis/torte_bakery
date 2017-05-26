@@ -1,5 +1,12 @@
 <div id="home-index-nav-container">
-  
+  <div id="bullet-headings-container">
+    <span class="bullet-heading">Weddings</span>
+    <span><%=fa_icon("circle")%></span>
+    <span class="bullet-heading">Special Occasions</span>
+    <span><%=fa_icon("circle")%></span>
+    <span class="bullet-heading">Birthdays</span>
+    
+  </div>
   <div id="home-index-nav-main-container">
     <span class="nav-btn"><%=link_to "about", "/about"%></span>
     <span class="nav-btn"><%=link_to "gallery", "/gallery"%></span>
@@ -8,6 +15,7 @@
     <span class="nav-btn"><%=link_to "flavors", "#"%></span>
   </div>
   <div id="social-media-links-container">
+    <div id="home-index-city">Saint Louis, MO</div>
     <%=link_to(fa_icon("facebook"), "https://www.facebook.com/tortebakery/", id:"facebook-icon")%>|<%=link_to(fa_icon("instagram"), "https://www.instagram.com/thegreeneyedbaker/", id: "instagram-icon")%> 
   </div>
 </div>
