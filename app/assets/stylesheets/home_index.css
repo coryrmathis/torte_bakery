@@ -4,7 +4,7 @@
   font-size: 3em;
   padding: 10px 50px 10px 50px;
   border-radius: 10px;
-  background-color: #aa6982;    
+  background-color: #c47392;    
   -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
@@ -53,7 +53,7 @@
   text-align: center;
   font-size: 4em;
   left: 43%;
-  top: 100%;
+  top: 105%;
 }
 
 #social-media-links-container i {
