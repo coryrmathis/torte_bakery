@@ -56,5 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Dev Gems
 
 gem 'bower-rails'
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 gem 'flickr.rb'
+gem 'devise'
