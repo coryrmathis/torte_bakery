@@ -60,3 +60,6 @@ gem 'font-awesome-rails'
 gem 'flickr.rb'
 gem 'devise'
 gem 'faker'
+gem 'figaro'
+gem 'aws-sdk', '~> 2'
+
