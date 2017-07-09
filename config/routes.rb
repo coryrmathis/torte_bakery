@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get "/gallery", to: "home#gallery"
 
   get "/admin", to: "admin#index"
+
+  resources :cakes, only: [:create]
 end

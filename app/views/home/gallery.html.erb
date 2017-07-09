@@ -1,5 +1,12 @@
-<ul>
-  <%@photos.each do |photo|%>
-    <li><%=image_tag(photo.source)%></li>
-  <%end%>
-</ul>
+<%=form_for(Cake.new, multipart: true) do |f|%>
+  <%=f.label :photo%>
+  <%=f.file_field :photo%>
+  <%=f.submit "Save Cake"%>
+<%end%>
+
+<%@cakes.all.each do |cake|%>
+  <div>
+    <%=image_tag(cake.photo.url(:thumb))%>
+  </div>
+<%end%>
+

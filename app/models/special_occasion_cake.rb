@@ -1,0 +1,2 @@
+class SpecialOccasionCake < Cake 
+end

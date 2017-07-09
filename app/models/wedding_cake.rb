@@ -1,0 +1,2 @@
+class WeddingCake < Cake 
+end

@@ -1,0 +1,2 @@
+class CarvedCake < Cake 
+end
